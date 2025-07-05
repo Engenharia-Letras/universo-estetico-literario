@@ -12,17 +12,26 @@
 }
 
 .quiz-card {
+  position: relative; /* Para o header posicionar em relação a ele */
   background-color: #fff;
   border: 3px solid rgb(225, 198, 44);
   border-radius: 12px;
-  padding: 25px 30px;
+  padding: 40px 30px 25px 30px; /* padding-top maior para não encobrir o texto */
   width: 850px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
   font-family: Arial, sans-serif;
   color: #000;
+  margin-top: 60px; /* Só se quiser dar mais espaço do topo da página */
 }
 
 .quiz-question {
   font-size: 18px;
   margin-bottom: 20px;
+}
+
+.explanation-text {
+  font-size: 22px; /* Altere esse valor para o tamanho que preferir */
+  line-height: 1.5;
+  color: #222; /* Mantenha ou ajuste conforme desejar */
+  margin-bottom: 18px; /* Opcional: espaço abaixo */
 }

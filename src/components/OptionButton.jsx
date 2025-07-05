@@ -1,12 +1,8 @@
 import "./OptionButton.css";
 
-export default function OptionButton({ index, text, selected, onSelect }) {
-  const isSelected = selected === index;
+export default function OptionButton({ index, text, onSelect }) {
   return (
-    <button
-      className={`option-button ${isSelected ? "selected" : ""}`}
-      onClick={() => onSelect(index)}
-    >
+    <button className="option-button" onClick={() => onSelect(index)}>
       {text}
     </button>
   );

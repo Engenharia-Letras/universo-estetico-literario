@@ -1,10 +1,10 @@
 .header-wrapper {
   position: absolute;
-  top: -40px;
+  top: -44px; /* Para sobrepor o topo do card */
   left: 50%;
   transform: translateX(-50%);
   z-index: 2;
-  width: 240px;
+  width: 270px;
   height: 70px;
   overflow: visible;
 }
