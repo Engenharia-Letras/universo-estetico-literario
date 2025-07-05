@@ -1,0 +1,40 @@
+.header-wrapper {
+  position: absolute;
+  top: -40px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 2;
+  width: 240px;
+  height: 70px;
+  overflow: visible;
+}
+
+.header-shadow {
+  position: absolute;
+  top: 6px;
+  left: 6px;
+  width: 220px;
+  height: 60px;
+  background-color: #00588a;
+  border-radius: 6px;
+  z-index: 0;
+}
+
+.header-main {
+  background-color: #00bfff;
+  color: #fff;
+  width: 220px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 6px;
+  font-weight: 700;
+  font-size: 40px;
+  font-family: "Caveat", cursive;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: 1;
+}

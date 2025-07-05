@@ -1,0 +1,28 @@
+.quiz-wrapper {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background-color: transparent;
+}
+
+.quiz-content {
+  position: relative;
+}
+
+.quiz-card {
+  background-color: #fff;
+  border: 3px solid rgb(225, 198, 44);
+  border-radius: 12px;
+  padding: 25px 30px;
+  width: 850px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  font-family: Arial, sans-serif;
+  color: #000;
+}
+
+.quiz-question {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
