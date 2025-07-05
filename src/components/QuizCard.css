@@ -1,10 +1,21 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
 .quiz-wrapper {
+  height: 100vh; /* Garante 100% da viewport, não mais */
   min-height: 100vh;
   display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 20px;
-  background-color: transparent;
+  align-items: center; /* Centraliza verticalmente */
+  justify-content: center; /* Centraliza horizontalmente */
+  padding: 0; /* Remove padding externo */
+  margin: 0; /* Remove margin externo */
+  overflow: hidden; /* Esconde qualquer overflow (nada de rolagem) */
+  /* Se quiser o fundo quadriculado, adicione sua imagem ou pattern aqui */
 }
 
 .quiz-content {

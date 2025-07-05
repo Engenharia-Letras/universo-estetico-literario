@@ -12,7 +12,7 @@ export default function ExplanationCard({
       <QuestionHeader type="explanation" current={current} total={total} />
       {/* <h2 className="quiz-question">Explicação</h2> */}
       <div className="explanation-text">{explanation}</div>
-      <br />
+      {/* <br /> */}
       <button className="next-btn" onClick={onNext}>
         Próxima
       </button>
