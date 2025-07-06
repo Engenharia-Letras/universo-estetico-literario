@@ -13,11 +13,11 @@ const introScreens = [
     text: "A dinâmica será um quiz, no qual serão feitas perguntas relacionadas ao tema ou apresentados trechos de textos para associação.",
   },
   {
-    title: "Funcionamento - Parte 1",
+    title: "Funcionamento",
     text: "Sempre que uma pergunta for respondida corretamente o indivíduo eleva um nível, mas quando erra paga uma prenda (que seria receber uma explicação de algo referente ao tema).",
   },
   {
-    title: "Funcionamento - Parte 2",
+    title: "Funcionamento",
     text: "Com o avançar dos níveis, a dinâmica vai ficando mais complexa, se o indivíduo zera a dinâmica, ganha ela.",
   },
 ];

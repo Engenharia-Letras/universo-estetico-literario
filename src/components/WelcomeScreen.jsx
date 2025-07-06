@@ -5,14 +5,14 @@ export default function WelcomeScreen({ onStart }) {
     <div className="welcome-wrapper">
       <div className="welcome-stack">
         <div className="welcome-banner-pair">
-          <div className="welcome-banner universo-shadow"></div>
+          <div className="welcome-banner-shadow universo-shadow"></div>
           <div className="welcome-banner universo">Universo</div>
         </div>
         <div className="welcome-banner-pair">
           <div className="welcome-banner estetico">Estético</div>
         </div>
         <div className="welcome-banner-pair">
-          <div className="welcome-banner literario-shadow"></div>
+          <div className="welcome-banner-shadow literario-shadow"></div>
           <div className="welcome-banner literario">Literário</div>
         </div>
       </div>
