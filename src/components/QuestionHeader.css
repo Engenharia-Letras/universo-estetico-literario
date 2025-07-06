@@ -9,32 +9,31 @@
   overflow: visible;
 }
 
-.header-shadow {
-  position: absolute;
-  top: 6px;
-  left: 6px;
-  width: 220px;
-  height: 60px;
-  background-color: #00588a;
-  border-radius: 6px;
-  z-index: 0;
-}
-
 .header-main {
   background-color: #00bfff;
   color: #fff;
-  width: 220px;
-  height: 60px;
+  width: 340px;
+  height: 80px;
   display: flex;
   justify-content: center;
   align-items: center;
-  border-radius: 6px;
+  border-radius: 12px;
   font-weight: 700;
-  font-size: 40px;
+  font-size: 54px;
   font-family: "Caveat", cursive;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
   position: absolute;
-  top: 0px;
-  left: 0px;
+  top: 0;
+  left: 0;
   z-index: 1;
+}
+.header-shadow {
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  width: 340px;
+  height: 80px;
+  background-color: #00588a;
+  border-radius: 12px;
+  z-index: 0;
 }
