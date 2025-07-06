@@ -16,21 +16,21 @@
 
 .welcome-banner {
   font-family: "Caveat", cursive;
-  font-size: 78px; /* bem maior */
+  font-size: 78px;
   font-weight: 700;
   letter-spacing: 2px;
   padding: 0px 40px;
-  height: 90px; /* mais fina */
+  height: 90px;
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 600px; /* mais largo */
+  width: 600px;
   box-sizing: border-box;
   margin: 0;
   margin-bottom: 0px;
-  border-radius: 0; /* sem arredondamento */
-  border: none; /* sem borda */
-  box-shadow: none; /* sem sombra */
+  border-radius: 0;
+  border: none;
+  box-shadow: none;
   position: relative;
   z-index: 2;
 }
@@ -81,8 +81,8 @@
 
 .welcome-banner-pair {
   position: relative;
-  height: 88px; /* levemente maior que a height da faixa para não cortar a sombra */
-  width: 540px; /* ajuste igual ou um pouco maior que o banner principal */
+  height: 88px;
+  width: 540px;
   margin-bottom: 20px;
   display: flex;
   align-items: center;
@@ -94,13 +94,12 @@
   left: 0;
   top: 0;
   z-index: 2;
-  /* já tinha os estilos que você fez */
 }
 
 .welcome-banner-shadow {
   position: absolute;
-  left: 12px; /* desloca para a direita */
-  top: 11px; /* desloca para baixo */
+  left: 12px;
+  top: 11px;
   z-index: 1;
   width: 100%;
   height: 84px;

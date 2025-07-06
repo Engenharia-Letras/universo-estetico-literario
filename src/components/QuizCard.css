@@ -7,15 +7,14 @@ body {
 }
 
 .quiz-wrapper {
-  height: 100vh; /* Garante 100% da viewport, não mais */
+  height: 100vh;
   min-height: 100vh;
   display: flex;
-  align-items: center; /* Centraliza verticalmente */
-  justify-content: center; /* Centraliza horizontalmente */
-  padding: 0; /* Remove padding externo */
-  margin: 0; /* Remove margin externo */
-  overflow: hidden; /* Esconde qualquer overflow (nada de rolagem) */
-  /* Se quiser o fundo quadriculado, adicione sua imagem ou pattern aqui */
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
 }
 
 .quiz-content {
@@ -23,16 +22,20 @@ body {
 }
 
 .quiz-card {
-  position: relative; /* Para o header posicionar em relação a ele */
+  position: relative;
   background-color: #fff;
   border: 3px solid rgb(225, 198, 44);
   border-radius: 12px;
-  padding: 40px 30px 25px 30px; /* padding-top maior para não encobrir o texto */
+  padding: 60px 30px 30px 30px;
   width: 850px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
   font-family: Arial, sans-serif;
   color: #000;
-  margin-top: 60px; /* Só se quiser dar mais espaço do topo da página */
+  margin-top: 60px;
+}
+
+.quiz-card-content {
+  width: 100%;
 }
 
 .quiz-question {
@@ -41,8 +44,12 @@ body {
 }
 
 .explanation-text {
-  font-size: 22px; /* Altere esse valor para o tamanho que preferir */
+  font-size: 22px;
   line-height: 1.5;
-  color: #222; /* Mantenha ou ajuste conforme desejar */
-  margin-bottom: 18px; /* Opcional: espaço abaixo */
+  color: #222;
+  margin-bottom: 18px;
+}
+
+.quiz-card.header-large-padding {
+  padding-top: 10px;
 }

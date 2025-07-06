@@ -6,10 +6,12 @@ export default function QuizCard({ questionObj, onSelect }) {
   return (
     <div className="quiz-card">
       <QuestionHeader type="question" />
-      <h2 className="quiz-question">{questionObj.question}</h2>
-      {questionObj.options.map((text, idx) => (
-        <OptionButton key={idx} index={idx} text={text} onSelect={onSelect} />
-      ))}
+      <div className="quiz-card-content">
+        <h2 className="quiz-question">{questionObj.question}</h2>
+        {questionObj.options.map((text, idx) => (
+          <OptionButton key={idx} index={idx} text={text} onSelect={onSelect} />
+        ))}
+      </div>
     </div>
   );
 }

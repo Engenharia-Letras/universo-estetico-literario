@@ -1,5 +1,5 @@
 import QuestionHeader from "./QuestionHeader";
-import "./QuizCard.css"; // Aproveita o mesmo estilo do card
+import "./QuizCard.css";
 
 export default function InfoCard({ text, onNext, title }) {
   return (
