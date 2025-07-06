@@ -5,9 +5,11 @@ import InfoCard from "./components/InfoCard";
 import QuizCard from "./components/QuizCard";
 import ExplanationCard from "./components/ExplanationCard";
 import QuizResult from "./components/QuizResult";
+import WelcomeScreen from "./components/WelcomeScreen";
 import "./App.css";
 
 function App() {
+  const [showWelcome, setShowWelcome] = useState(true);
   // Estado para navegação nas telas iniciais
   const [introStep, setIntroStep] = useState(0);
   // Estados do quiz
@@ -15,6 +17,10 @@ function App() {
   const [showExplanation, setShowExplanation] = useState(false);
   const [answeredWrong, setAnsweredWrong] = useState(false);
   const [score, setScore] = useState(0);
+
+  if (showWelcome) {
+    return <WelcomeScreen onStart={() => setShowWelcome(false)} />;
+  }
 
   // Se ainda tem telas iniciais para mostrar
   if (introStep < introScreens.length) {

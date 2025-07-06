@@ -1,0 +1,119 @@
+.welcome-wrapper {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.welcome-stack {
+  margin-bottom: 36px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0;
+}
+
+.welcome-banner {
+  font-family: "Caveat", cursive;
+  font-size: 78px; /* bem maior */
+  font-weight: 700;
+  letter-spacing: 2px;
+  padding: 0px 40px;
+  height: 90px; /* mais fina */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 600px; /* mais largo */
+  box-sizing: border-box;
+  margin: 0;
+  margin-bottom: 0px;
+  border-radius: 0; /* sem arredondamento */
+  border: none; /* sem borda */
+  box-shadow: none; /* sem sombra */
+  position: relative;
+  z-index: 2;
+}
+
+/* Cores e inclinações */
+.universo {
+  background: #ecb2a7;
+  color: #ffffff;
+  transform: rotate(-3.7deg);
+  margin-bottom: 200px;
+  width: 510px;
+  height: 100px;
+}
+.estetico {
+  background: #e6df76;
+  color: #ffffff;
+  /* transform: rotate(1.9deg); */
+  margin-bottom: 20px;
+}
+.literario {
+  background: #298bb3;
+  color: #fff;
+  transform: rotate(-2.1deg);
+  margin-bottom: 0;
+  width: 510px;
+  height: 100px;
+}
+
+.start-btn {
+  margin-top: 42px;
+  padding: 16px 56px;
+  font-size: 32px;
+  background: #00bfff;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  font-family: "Caveat", cursive;
+  font-weight: 700;
+  letter-spacing: 2px;
+  cursor: pointer;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.07);
+  transition: background 0.18s;
+}
+
+.start-btn:hover {
+  background: #00588a;
+}
+
+.welcome-banner-pair {
+  position: relative;
+  height: 88px; /* levemente maior que a height da faixa para não cortar a sombra */
+  width: 540px; /* ajuste igual ou um pouco maior que o banner principal */
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.welcome-banner {
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 2;
+  /* já tinha os estilos que você fez */
+}
+
+.welcome-banner-shadow {
+  position: absolute;
+  left: 12px; /* desloca para a direita */
+  top: 11px; /* desloca para baixo */
+  z-index: 1;
+  width: 100%;
+  height: 84px;
+  border-radius: 0;
+  /* transform: igual ao principal, mas pode variar um pouco para dar efeito de paralaxe */
+}
+
+.universo-shadow {
+  background: #d1796e;
+  transform: rotate(3deg);
+}
+
+.literario-shadow {
+  background: #155371;
+  transform: rotate(3deg);
+}
