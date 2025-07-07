@@ -7,24 +7,27 @@
 
 /* Emoji laranja (topo, sobre o amarelo) */
 .emoji-laranja-top {
-  top: -44px;
-  left: 58px;
-  width: 62px;
+  top: -50px;
+  left: 250px;
+  width: 70px;
   z-index: 22;
+  transform: rotate(-10deg);
 }
 
 /* Emoji amarelo (topo, atrás do laranja) */
 .emoji-amarelo-top {
-  top: -18px;
-  left: 102px;
-  width: 60px;
+  top: -5px;
+  left: 270px;
+  width: 70px;
   z-index: 21;
+  transform: rotate(10deg);
 }
 
 /* Emoji laranja no canto inferior direito */
 .emoji-laranja-bottom {
-  right: 0px;
-  bottom: -52px;
+  right: -12px;
+  bottom: -20px;
   width: 96px;
   z-index: 20;
+  transform: rotate(-20deg);
 }
