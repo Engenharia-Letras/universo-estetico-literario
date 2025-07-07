@@ -1,0 +1,30 @@
+.emoji {
+  position: absolute;
+  user-select: none;
+  pointer-events: none;
+  z-index: 20;
+}
+
+/* Emoji laranja (topo, sobre o amarelo) */
+.emoji-laranja-top {
+  top: -44px;
+  left: 58px;
+  width: 62px;
+  z-index: 22;
+}
+
+/* Emoji amarelo (topo, atrás do laranja) */
+.emoji-amarelo-top {
+  top: -18px;
+  left: 102px;
+  width: 60px;
+  z-index: 21;
+}
+
+/* Emoji laranja no canto inferior direito */
+.emoji-laranja-bottom {
+  right: 0px;
+  bottom: -52px;
+  width: 96px;
+  z-index: 20;
+}
