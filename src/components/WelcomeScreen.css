@@ -116,3 +116,36 @@
   background: #155371;
   transform: rotate(3deg);
 }
+
+.emoji {
+  position: absolute;
+  user-select: none;
+  pointer-events: none;
+  z-index: 10;
+}
+
+/* Emoji azul — canto superior direito, sobrepondo "universo", levemente inclinado */
+.emoji-azul {
+  top: 210px; /* Ajuste conforme a altura da sua faixa "universo" */
+  right: 600px; /* Ajuste conforme a largura da tela e posição da faixa "universo" */
+  width: 120px; /* Ajuste o tamanho conforme necessário */
+  transform: rotate(-14deg);
+}
+
+/* Emoji laranja — canto inferior esquerdo, sobrepondo "literário" */
+.emoji-laranja {
+  bottom: 420px; /* Aproximadamente o topo da sombra "literário" */
+  left: 590px; /* Ajuste para alinhar bem com a faixa */
+  width: 82px;
+  z-index: 11;
+  transform: rotate(-14deg); /* Sobrepõe o amarelo */
+}
+
+/* Emoji amarelo — um pouco mais baixo, sobrepõe o laranja, levemente à direita */
+.emoji-amarelo {
+  bottom: 360px;
+  left: 605px;
+  width: 90px;
+  z-index: 12;
+  transform: rotate(14deg); /* Sobrepõe o laranja */
+}
