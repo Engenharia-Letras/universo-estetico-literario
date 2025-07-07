@@ -30,6 +30,7 @@ function App() {
           title={introScreens[introStep].title}
           text={introScreens[introStep].text}
           onNext={() => setIntroStep((s) => s + 1)}
+          onBack={introStep > 0 ? () => setIntroStep((s) => s - 1) : undefined}
         />
       </div>
     );
