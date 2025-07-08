@@ -2,27 +2,25 @@ import emojiAmarelo from "../assets/emoji-amarelo.png";
 import emojiLaranja from "../assets/emoji-laranja.png";
 import "./CardEmojis.css";
 
-export default function CardEmojis() {
+export default function CardEmojis({ isEstetica }) {
   return (
     <>
-      {/* Emojis do topo */}
       <img
         src={emojiLaranja}
         alt=""
-        className="emoji emoji-laranja-top"
+        className={`emoji emoji-laranja-top${isEstetica ? " estetica" : ""}`}
         draggable="false"
       />
       <img
         src={emojiAmarelo}
         alt=""
-        className="emoji emoji-amarelo-top"
+        className={`emoji emoji-amarelo-top${isEstetica ? " estetica" : ""}`}
         draggable="false"
       />
-      {/* Emoji do canto inferior direito */}
       <img
         src={emojiLaranja}
         alt=""
-        className="emoji emoji-laranja-bottom"
+        className={`emoji emoji-laranja-bottom${isEstetica ? " estetica" : ""}`}
         draggable="false"
       />
     </>

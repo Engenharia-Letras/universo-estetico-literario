@@ -31,3 +31,23 @@
   z-index: 20;
   transform: rotate(-20deg);
 }
+
+/* ---------- Só quando o card é 'O que é Estética Literária' ---------- */
+.emoji-laranja-top.estetica {
+  top: -60px;
+  left: 180px;
+  width: 68px;
+  transform: rotate(-10deg) scale(1.12);
+}
+.emoji-amarelo-top.estetica {
+  top: -18px;
+  left: 200px;
+  width: 65px;
+  transform: rotate(13deg) scale(1.05);
+}
+.emoji-laranja-bottom.estetica {
+  right: 14px;
+  bottom: -35px;
+  width: 94px;
+  transform: rotate(-25deg);
+}
