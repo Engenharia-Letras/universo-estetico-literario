@@ -18,6 +18,15 @@ function App() {
   const [answeredWrong, setAnsweredWrong] = useState(false);
   const [score, setScore] = useState(0);
 
+  const resetApp = () => {
+    setShowWelcome(true);
+    setIntroStep(0);
+    setCurrent(0);
+    setShowExplanation(false);
+    setAnsweredWrong(false);
+    setScore(0);
+  };
+
   if (showWelcome) {
     return <WelcomeScreen onStart={() => setShowWelcome(false)} />;
   }
@@ -38,7 +47,9 @@ function App() {
 
   // Se chegou ao fim do quiz
   if (current >= questions.length) {
-    return <QuizResult score={score} total={questions.length} />;
+    return (
+      <QuizResult score={score} total={questions.length} onRestart={resetApp} />
+    );
   }
 
   // Durante o quiz
